@@ -1,0 +1,60 @@
+body{
+  padding: 15px;
+  background:  #e0ebeb;
+  color: #532837;  
+}
+
+#title,
+#todo-header{
+	font-family:'Changa One', 'sans-serif';
+}
+
+ul{
+  list-style: none;
+  text-align: center;  
+}
+
+#user-todo,
+#clear{
+	font-size: 1.5em;
+	background-color: #ffeee6;
+}
+
+#user-todo{
+	padding: 15px;
+	border: 2px solid lightcoral;
+}
+
+li{
+ margin: 0 20px 15px;
+ padding: 15px;
+ border: 2px solid #6c2726;
+ border-radius: 5px;
+ color: #333;
+ background: rgba(255,255,255, .5);
+ text-align: center;
+ font-size: 1.5em;
+ max-width: 450px; 
+}
+
+.container{
+  box-sizing: border-box;
+  box-shadow: 0 10px 15px -8px #000;
+  background-color: #e6ffe6;
+  border: 4px solid #d87093;
+  border-radius: 5px;
+  max-width: 550px;
+}
+
+#clear{
+	border: 2px solid rgb(251, 205, 255);
+    font-weight: bold;
+    background-color: lightcoral;
+	font-weight: bold;
+}
+
+#clear:hover {
+    background-color: #d87093;    
+}
+
+
