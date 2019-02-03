@@ -1,9 +1,12 @@
 body{
-  padding: 15px;
-  background:  #e0ebeb;
-  color: #532837;  
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  color: #532837;
+  background: linear-gradient(#f5f5dc, transparent 90%), linear-gradient(0deg, #faf0e6, transparent), #e0ebeb url('../images/todo.jpg')repeat center; 
 }
 
+/* */
 #title,
 #todo-header{
 	font-family:'Changa One', 'sans-serif';
@@ -22,16 +25,16 @@ ul{
 
 #user-todo{
 	padding: 15px;
-	border: 2px solid lightcoral;
+	border-bottom: 2px solid lightcoral;
 }
 
 li{
  margin: 0 20px 15px;
- padding: 15px;
- border: 2px solid #6c2726;
+ padding: 10px;
+ border-bottom: 1px solid #6c2726;
  border-radius: 5px;
  color: #333;
- background: rgba(255,255,255, .5);
+ background-color: #ffeee6;
  text-align: center;
  font-size: 1.5em;
  max-width: 450px; 
@@ -39,18 +42,18 @@ li{
 
 .container{
   box-sizing: border-box;
-  box-shadow: 0 10px 15px -8px #000;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
   background-color: #e6ffe6;
-  border: 4px solid #d87093;
+  border-bottom: 2px solid #ccc;
   border-radius: 5px;
-  max-width: 550px;
+  max-width: 450px;
 }
 
 #clear{
-	border: 2px solid rgb(251, 205, 255);
+	border-bottom: 2px solid rgb(251, 205, 255);
     font-weight: bold;
     background-color: lightcoral;
-	font-weight: bold;
+	
 }
 
 #clear:hover {
