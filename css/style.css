@@ -40,6 +40,32 @@ li{
  max-width: 450px; 
 }
 
+li label {
+  font-size: .8em;
+  display: block;
+  color: red;
+}
+
+li input[type=checkbox]{
+	margin-left: 10px;
+}
+
+li BUTTON{
+	background-color: lightblue;
+	font-size: .7em;
+}
+
+/* responded */
+.responded {
+  transition: 0.4s;
+  border: 2px solid blue;
+}
+
+.responded label {
+  transition: 0.4s;
+  color: rgba(88, 183, 205, 1);
+}
+
 .container{
   box-sizing: border-box;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
